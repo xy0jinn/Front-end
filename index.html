@@ -8,8 +8,13 @@
   <style>
     .box {width: 100px; height: 100px; background-color: blue;}
   </style>
+  <script>
+    function abc(){
+      document.getElementById("box").style["background-color"]="green";
+    }
+  </script>
 </head>
 <body>
-  <div class="box"></div>
+  <div class="box" id="box" onclick="abc()"></div>
 </body>
 </html>
