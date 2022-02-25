@@ -1,0 +1,144 @@
+footer{
+    width: 100%;
+    height: 500px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.copy{
+    width: inherit;
+    height: inherit;    
+}
+/* 상단 */
+.foot1{
+    width: inherit;
+    height: 45px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid #aaa;
+}
+.foot1 > div {
+    width: 1220px;
+    height: auto;
+    margin: 0 auto;
+    font-size: 12px;
+}
+.footul1{
+    width: 600px;
+    height: auto;
+    float: left;
+}
+.footul1 > li {
+    height: 45px;
+    display: inline-block;
+    line-height: 45px;
+    color: #aaa;
+}
+.footul1 > li:nth-of-type(odd){
+    cursor: pointer;
+}
+.footico1{
+    height: 45px;
+    width: 90px;
+    float: right;
+    font-size: 0;
+}
+.footico1 > li {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 12.5px;
+    cursor: pointer;
+}
+.footico1 > li:nth-of-type(1){
+    background: url("../shop1/footer/ft_sns01.gif") no-repeat center center;
+}
+.footico1 > li:nth-of-type(2){
+    background: url("../shop1/footer/ft_sns02.gif") no-repeat center center;
+}
+.footico1 > li:nth-of-type(3){
+    background: url("../shop1/footer/ft_sns03.gif") no-repeat center center;
+    margin-right: 0;
+}
+/* 중간 */
+.foot2{
+    width: 1220px;
+    height: 265px;
+    margin: 0 auto;
+    font-size: 12px;
+    position: relative;
+}
+.foot2 > ul{
+    width: 1200px;
+    height: 225px;
+    padding: 40px 0 0 20px;
+}
+.foot2 > ul > li {
+    float: left;
+}
+.foot2 > ul > li:nth-of-type(1){
+    width: 360px;
+    height: 150px;
+    border-right: 1px solid #aaa;
+}
+.fol1 >li, .fol2 >li, .fol3 > li {
+    font-size: 12px;
+    color: #aaa;
+}
+.fol1 > li:nth-of-type(1), .fol2 > li:nth-of-type(1), .fol3 > li:nth-of-type(1){
+    font-size: 11px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 20px;
+}
+.fol1 > li:nth-of-type(2){
+    color: #000;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.foot2 > ul > li:nth-of-type(2), .foot2 > ul > li:nth-of-type(3){
+    width: 190px;
+    height: 150px;
+    border-right: 1px solid #aaa;
+}
+.fol2 > li, .fol3 >li{
+    text-indent: 20px;
+}
+.fol3 >li{
+    cursor: pointer;
+}
+.foot2 > span{
+    position: absolute;
+    bottom: 20px;
+    text-indent: 20px;
+    font-size: 12px;
+    color: #aaa;
+}
+/* 하단 */
+.foot3{
+    height: 200px;
+    border-top: 1px solid #aaa;
+    font-size: 12px;
+    padding-top: 20px;
+}
+.foot3 >div{
+    width: 1220px;
+    height: inherit;
+    margin: 0 auto;
+    position: relative;
+}
+.foot3 > div > ol {
+    float: left;
+    color: #aaa;
+}
+.foot3 > div > span {
+    float: right;
+}
+.foot3 >div > span > img {
+    width: 226px;
+    height: 86px;
+}
+.foot3 > div > p{
+    position: absolute;
+    bottom: 40px;
+    color: #aaa;
+}

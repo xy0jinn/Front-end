@@ -1,0 +1,110 @@
+@charset "UTF-8";
+/*메뉴*/
+.menus {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    z-index: 10;
+    background-color: darkred;
+}
+.menus>ul{
+    width: 100%;
+    height: 50px;
+}
+.menus > ul > li{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    float: left;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+.menus > ul > li:hover{
+    border-bottom: 3px solid white;
+}
+.mv_page{
+    height: 100vh;
+    position: relative;
+}
+.mp{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    object-fit: cover;
+    overflow: hidden;
+    background-color: black;
+}
+.logo{
+    position: absolute;
+    z-index: 1;
+    width: 500px;
+    left: 50%;
+    margin-left: -240px;
+    bottom: 90px;
+}
+.info{   /*이벤트 문구 적용 CSS*/
+    width: 700px;
+    height: 150px;
+    position: absolute;
+    z-index: 2;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -350px;
+}
+.info > ul {
+    width: 100%;
+    height: auto;
+}
+.info > ul > li {
+    width: 700px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color:rgba(0,0,0,0.4);
+}
+.info > ul > li:nth-child(1){
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: gray;
+}
+.info > ul > li:nth-child(2){
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #eee;
+}
+.color1{
+    display: inline-block;
+    color: darkred;
+}
+.info > ul > li:nth-child(3){
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #eee;
+}
+/*이벤트 참여 버튼*/
+.btn{
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 150px;
+    height: 30px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: black;
+    color: white;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: darkred;
+    color: white;
+}

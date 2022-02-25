@@ -1,0 +1,167 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&display=swap");
+nav{
+    width: 100%;
+    height: 230px;
+}
+.menudiv{
+    width: 100%;
+    height: inherit;
+
+}
+.menuul{
+    width: inherit;
+    height: inherit;
+    margin: 0 auto;
+}
+.menuul > li {
+    border-bottom: 1px solid #ededed;
+    box-sizing: border-box;
+}
+.menuul > li:nth-of-type(1){
+    height: 40px;
+    font-size: 12px;
+    color: #777;
+}
+.menuul > li:nth-of-type(2){
+    height: 150px;
+}
+.menuul > li:nth-of-type(3){
+    height: 40px;
+}
+/* 메뉴1 */
+.menus{
+    width: 1220px;
+    height: inherit;
+    margin: 0 auto;
+}
+.left{
+    width: 250px;
+    height: auto;
+    float: left;
+}
+.left > li {
+    width: 70px;
+    height: 40px;
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+.left > li:nth-of-type(even){
+    width: 5px;
+    cursor: none;
+}
+.right{
+    float: right;
+    width: 400px;
+    height: 40px;
+}
+.right > li {
+    width: 70px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+.right > li:nth-of-type(even){
+    width: 5px;
+    cursor:none
+}
+/* 메뉴2 */
+.logos{
+    width: 100%;
+    height: 150px;
+}
+.logo{
+    width: 1220px;
+    height: inherit;
+    margin: 0 auto;
+    position: relative;
+}
+.logo > li:nth-of-type(1){
+    width: 342px;
+    height: 65px;
+    position: absolute;
+    left: 439px;
+    top: 42.5px;
+}
+.search, .basket{
+    width: 25px;
+    height: 25px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    cursor: pointer;
+}
+.search{
+    right: 105px;
+}
+.basket{
+    right: 50px;
+}
+.logo > li > img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+/* 메뉴3 */
+.big{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+}
+.bigleft{
+    width: auto;
+    margin-left: 10px;
+}
+.bigleft > li{
+    width: auto;
+    height: inherit;
+    float: left;
+    margin-right: 15px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    position: relative;
+}
+.bigright {
+    width: auto;
+    height: inherit;
+    float: right;
+}
+.bigright > li {
+    display: inline-block;
+    margin-right: 10px;
+    height: inherit;
+    line-height: 40px;
+    cursor: pointer;
+    text-align: center;
+}
+.bigright > li:last-of-type{
+    margin-right: 0;
+}
+/* 소메뉴 */
+.mini{
+    width: 120px;
+    height: auto;
+    border: 1px solid #ededed;
+    font-size: 12px;
+    margin-top: 0px;
+    border-top: 0;
+    position: absolute;
+    left: -10px;
+    display: none;
+    background-color: white;
+    z-index: 10;
+}
+.mini > dd{
+    height: 25px;
+    width: inherit;
+    line-height: 25px;
+    text-align: left;
+    text-indent: 15px;
+    margin-left: 0;
+    cursor: pointer;
+}

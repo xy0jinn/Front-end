@@ -1,0 +1,51 @@
+@charset "UTF-8";
+.outline { height: auto; }
+.roule_bk { 
+    width: 1024px; 
+    height: 1600px; 
+    margin: 0 auto; 
+    background:url("../roule/image/rullet_back.png") no-repeat center center;
+    position: relative;
+}
+.roule_bk > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 785px;
+    height: 785px;
+    position: relative;
+    top: 670px;
+    left: 119px;
+}
+.board {
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    background: url("../roule/image/rullet_board.png") no-repeat center center;
+    transition: all 5s ease;
+}
+.pin{
+    width: 70px;
+    height: 63px;
+    background: url("../roule/image/rullet_pin.png") no-repeat center center;
+    position: absolute;
+    left: 357.5px;
+}
+.btn{
+    width: 250px;
+    height: 250px;
+    background: url("../roule/image/rullet_btn.png") no-repeat center center;
+    position: absolute;
+    left: 267.5px;
+    top: 277.5px;
+}
+
+@media screen and (min-width:340px) and (max-width:560px) { 
+    .roule_bk{
+        width: 100%;
+        background-image: url("../roule/image/rullet_back.png");
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: contain;
+    }
+}

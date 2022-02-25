@@ -1,0 +1,30 @@
+@charset "UTF-8";
+header {
+    width: 100%;
+    height: auto;
+    background-color: #e9e9e9;
+}
+.topdiv{
+    width: 1220px;
+    height: 75px;
+    margin: 0 auto;
+}
+.toplab{
+    height: 75px;
+    position: relative;
+}
+.top_banner{
+    height: inherit;
+    object-fit: cover;
+}
+.close{
+    width: 33px;
+    height: 33px;
+    background: url("../shop1/top/top_close.gif") no-repeat center center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: 40px;
+    cursor: pointer;
+}
